@@ -16,7 +16,7 @@ http_client = stripe.HTTPXClient(allow_sync_methods=True)
 client=stripe.StripeClient(SK, http_client=http_client)
 
 
-REUCRRING_PRICE="price_1P4mdHIlCeH6bP8RjRq5b3It"  # Replace with your price id
+REUCRRING_PRICE="price_XXXXXXXX"  # Replace with your price id
 
 async def create_customer_subscription(email):
     customer_kwargs = {
