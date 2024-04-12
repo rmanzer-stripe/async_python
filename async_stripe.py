@@ -42,7 +42,7 @@ async def create_customer_subscription(email):
     return subscription
 
 async def main():
-    emails = ['test!@bufo.io', 'test2@bufo.io', 'test3@bufo.io']
+    emails = ['test1@bufo.io', 'test2@bufo.io', 'test3@bufo.io']
     await asyncio.gather(*[create_customer_subscription(email) for email in emails])
 
 if __name__ == '__main__':
