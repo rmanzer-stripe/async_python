@@ -45,4 +45,4 @@ python async_python.py
 
 You will see a message printed out to the console when each object is created. 
 
-For more insight into how the `asyncio` package and Aysnc design patterns in Python can be implemented, I recommend [this article](https://realpython.com/async-io-python/).
+For more insight into how the `asyncio` package works and aysnc design patterns in Python can be implemented, I recommend [this article](https://realpython.com/async-io-python/).
