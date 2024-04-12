@@ -40,7 +40,7 @@ Once all of those steps are completed, you are ready to run the file.
 In the terminal, run the following (with your `.venv` activated, of course).
 
 ```sh
-python async_python.py
+$(.venv) python async_python.py
 ```
 
 You will see a message printed out to the console when each object is created. 
